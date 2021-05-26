@@ -70,6 +70,9 @@ while True:
 
       if (values['is_webp'] == True) :
         initalizeWebp(file)
+
+      # メッセージをGUIに表示する
+      window['output'+sg.WRITE_ONLY_KEY].print('End oparation.')
       
 
     
